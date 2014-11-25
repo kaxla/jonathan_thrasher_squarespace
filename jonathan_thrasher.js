@@ -5,12 +5,9 @@
 //PUT LOGO ON MAIN PAGE--GOES IN PAGES->HOME SETTINGS->ADVANCED->PAGE HEADER CODE INJECTION
 
 <script type="text/javascript">
-
-$(document).ready(function(){
-
-  $(".page-title-wrapper").first().html($("<img>").attr("src", "http://static.squarespace.com/static/544eb2f0e4b0134a742345b2/t/5473d4a4e4b088c2a6bfc6bd/1416877220448/jticonwhiteoutline.png"));
-});
-
+  $(document).ready(function(){
+    $(".page-title-wrapper").first().html($("<img>").attr("src", "http://static.squarespace.com/static/544eb2f0e4b0134a742345b2/t/5473d4a4e4b088c2a6bfc6bd/1416877220448/jticonwhiteoutline.png"));
+  });
 </script>
 
 //ADD 'VIEW GALLERY' BUTTONS TO LOVE AND MARRIAGE SECTION--GOES IN PAGES->LOVE & MARRIAGE SETTINGS->ADVANCED->PAGE HEADER AND CODE INJECTION
