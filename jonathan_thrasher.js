@@ -14,10 +14,10 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    $('.page-title-wrapper:eq(0)').after('<div class="gallery-button"><a href="/dwgallery">view gallery</a></div>');
-    $('.page-title-wrapper:eq(2)').after('<div class="gallery-button"><a href="/weddingsgallery">view gallery</a></div>');
-    $('.page-title-wrapper:eq(4)').after('<div class="gallery-button"><a href="/engagementsgallery">view gallery</a></div>');
-    $('.page-title-wrapper:eq(6)').after('<div class="gallery-button"><a href="/ringsgallery">view gallery</a></div>');
+    $('.page-title-wrapper:eq(0)').after('<a href="/dwgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
+    $('.page-title-wrapper:eq(2)').after('<a href="/weddingsgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
+    $('.page-title-wrapper:eq(4)').after('<a href="/engagementsgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
+    $('.page-title-wrapper:eq(6)').after('<a href="/ringsgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
   })
 </script>
 
@@ -25,8 +25,8 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    $('.page-title-wrapper:eq(0)').after('<div class="gallery-button"><a href="LINK_TO_HS_SENIORS_GALLERY">view gallery</a></div>');
-    $('.page-title-wrapper:eq(2)').after('<div class="gallery-button"><a href="LINK_TO_MODELS_GALLERY">view gallery</a></div>');
+    $('.page-title-wrapper:eq(0)').after('<a href="/seniorsgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
+    $('.page-title-wrapper:eq(2)').after('<a href="/modelgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
   })
 </script>
 
@@ -34,7 +34,7 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    $('.page-title-wrapper:eq(0)').after('<div class="gallery-button"><a href="LINK_TO_TRAVEL_&_ART_GALLERY">view gallery</a></div>');
-    $('.page-title-wrapper:eq(2)').after('<div class="gallery-button"><a href="LINK_TO_PHODOGRAPHY_GALLERY">view gallery</a></div>');
+    $('.page-title-wrapper:eq(0)').after('<a href="/travelgallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
+    $('.page-title-wrapper:eq(2)').after('<a href="/phodographygallery"><div class="gallery-button-border"><div class="gallery-button">view gallery</div></div></a>');
   })
 </script>

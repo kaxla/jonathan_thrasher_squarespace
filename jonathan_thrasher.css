@@ -28,8 +28,14 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: background-color 0.1s linear 0s;
-  width: 90%;
+  width: 150px;
   margin: 0 auto;
+}
+
+.gallery-button-border {
+  border: 2px solid white;
+  width: 170px;
+  margin: 0px auto;
 }
 
 .gallery-button:hover{
